@@ -1,2 +1,10 @@
 # semantic_analyzer
-A python module utility for analyzing and plotting the relationships between LLM semantic embeddings of text strings.
+
+![Interactive Example](images/3D_tsne.png)
+
+A simple utility for analyzing relationships between semantic embeddings of text strings and plotting them interactively using sklearn TSNE and plotly. Useful for evaluating embedding performance on data samples.
+
+Metrics include:
+- mean pairwise similarity
+- max pairwise similarity
+- diversity score
